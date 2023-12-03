@@ -112,7 +112,7 @@ pub fn day1() {
 }
 
 #[cfg(test)]
-mod tests {
+mod day1_tests {
     use super::word_matcher;
     use super::line_checker;
     use super::check_for_number;

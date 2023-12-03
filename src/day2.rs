@@ -74,7 +74,7 @@ pub fn day2() {
 }
 
 #[cfg(test)]
-mod tests {
+mod day2_tests {
     use super::game_checker_1;
     use super::game_checker_2;
 
