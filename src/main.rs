@@ -2,6 +2,7 @@ use std::env;
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -10,9 +11,10 @@ fn main() {
     println!("Advent of Code day {}", day);
 
     match day.as_str() {
-        "1" => day1::day1(),
-        "2" => day2::day2(),
-        "3" => day3::day3(),
+        "1" | "day1" => day1::day1(),
+        "2" | "day2"  => day2::day2(),
+        "3" | "day3"  => day3::day3(),
+        "4" | "day4"  => day4::day4(),
         _ => println!("Day {} not implemented yet", day),
     }
 }
